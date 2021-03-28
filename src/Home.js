@@ -15,10 +15,7 @@ import { v4 as uuidv4 } from 'uuid';
 const Home = () =>  {
 
     const [items, setItems] = useState([
-        {id: 1, text:'Milk'},
-        {id: 2, text:'Eggs'},
-        {id: 3, text:'Spa'},
-        {id: 4, text:'Car Wash'}
+        {id: 1, text:'Go for a walk'},
     ]);
 
     const [text, setText] = useState('');
